@@ -23,7 +23,7 @@
 
 <div class="container mx-auto">
 	<div class="flex">
-		<div>
+		<div class="h-32">
 			<div class="my-2">
 				当前步骤：第{$count爻+1}爻 - 第{$count变 + 1}变 - {$currentStep}：{hintText}
 			</div>
@@ -32,8 +32,9 @@
 				<button class="px-3 py-1 rounded-sm bg-cyan-200 hover:bg-cyan-100 active:bg-cyan-300" on:click={reset}>重置</button>
 			</div>
 		</div>
-	
-		<GuaDisplay 卦={$卦} />
+		<div class="ml-auto">
+			<GuaDisplay 卦={$卦} />
+		</div>
 	</div>
 	
 	<Sticks sticks={$sticks} on:click={(e) => nextStep(e.detail)} />
