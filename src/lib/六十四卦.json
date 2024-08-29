@@ -1,0 +1,294 @@
+{
+    "八卦": [
+        {
+            "name": "乾",
+            "pattern": [true, true, true]
+        },
+        {
+            "name": "坤",
+            "pattern": [false, false, false]
+        },
+        {
+            "name": "震",
+            "pattern": [true, false, false]
+        },
+        {
+            "name": "巽",
+            "pattern": [false, true, true]
+        },
+        {
+            "name": "坎",
+            "pattern": [false, true, false]
+        },
+        {
+            "name": "离",
+            "pattern": [true, false, true]
+        },
+        {
+            "name": "艮",
+            "pattern": [false, false, true]
+        },
+        {
+            "name": "兑",
+            "pattern": [true, true, false]
+        }
+    ],
+    "六十四卦": [
+        {
+            "name": "乾",
+            "pattern": [true, true, true, true, true, true]
+        },
+        {
+            "name": "坤",
+            "pattern": [false, false, false, false, false, false]
+        },
+        {
+            "name": "屯",
+            "pattern": [true, false, false, false, true, false]
+        },
+        {
+            "name": "蒙",
+            "pattern": [false, true, false, false, false, true]
+        },
+        {
+            "name": "需",
+            "pattern": [true, true, true, false, true, false]
+        },
+        {
+            "name": "讼",
+            "pattern": [true, true, false, false, false, true]
+        },
+        {
+            "name": "师",
+            "pattern": [false, false, false, true, true, true]
+        },
+        {
+            "name": "比",
+            "pattern": [true, true, true, false, false, false]
+        },
+        {
+            "name": "小畜",
+            "pattern": [true, true, false, true, true, true]
+        },
+        {
+            "name": "履",
+            "pattern": [true, true, true, true, false, true]
+        },
+        {
+            "name": "泰",
+            "pattern": [true, false, true, true, true, true]
+        },
+        {
+            "name": "否",
+            "pattern": [false, true, true, true, false, false]
+        },
+        {
+            "name": "同人",
+            "pattern": [true, true, true, false, true, true]
+        },
+        {
+            "name": "大有",
+            "pattern": [true, true, false, true, true, false]
+        },
+        {
+            "name": "谦",
+            "pattern": [false, true, true, true, true, true]
+        },
+        {
+            "name": "豫",
+            "pattern": [true, true, true, true, true, false]
+        },
+        {
+            "name": "随",
+            "pattern": [false, false, true, false, false, true]
+        },
+        {
+            "name": "蛊",
+            "pattern": [true, false, false, true, false, true]
+        },
+        {
+            "name": "临",
+            "pattern": [true, false, true, false, false, true]
+        },
+        {
+            "name": "观",
+            "pattern": [true, false, false, false, true, true]
+        },
+        {
+            "name": "噬嗑",
+            "pattern": [true, true, false, false, false, false]
+        },
+        {
+            "name": "贲",
+            "pattern": [false, false, false, true, true, true]
+        },
+        {
+            "name": "剥",
+            "pattern": [true, true, true, false, false, true]
+        },
+        {
+            "name": "复",
+            "pattern": [true, false, false, true, true, true]
+        },
+        {
+            "name": "无妄",
+            "pattern": [true, true, true, false, false, true]
+        },
+        {
+            "name": "大畜",
+            "pattern": [true, false, false, true, true, true]
+        },
+        {
+            "name": "颐",
+            "pattern": [true, true, false, false, true, true]
+        },
+        {
+            "name": "大过",
+            "pattern": [true, true, false, true, true, true]
+        },
+        {
+            "name": "坎",
+            "pattern": [false, true, false, true, false, true]
+        },
+        {
+            "name": "离",
+            "pattern": [true, false, true, false, true, false]
+        },
+        {
+            "name": "咸",
+            "pattern": [true, false, true, true, false, true]
+        },
+        {
+            "name": "恒",
+            "pattern": [true, true, false, true, false, true]
+        },
+        {
+            "name": "遁",
+            "pattern": [true, false, true, false, true, true]
+        },
+        {
+            "name": "大壮",
+            "pattern": [true, true, false, true, false, false]
+        },
+        {
+            "name": "晋",
+            "pattern": [false, false, true, true, false, true]
+        },
+        {
+            "name": "明夷",
+            "pattern": [true, false, true, true, false, false]
+        },
+        {
+            "name": "家人",
+            "pattern": [false, true, true, false, true, false]
+        },
+        {
+            "name": "睽",
+            "pattern": [false, true, false, true, true, false]
+        },
+        {
+            "name": "蹇",
+            "pattern": [false, true, true, true, false, false]
+        },
+        {
+            "name": "解",
+            "pattern": [false, false, true, true, true, false]
+        },
+        {
+            "name": "损",
+            "pattern": [false, true, true, false, false, true]
+        },
+        {
+            "name": "益",
+            "pattern": [true, false, false, true, true, false]
+        },
+        {
+            "name": "夬",
+            "pattern": [false, true, false, false, true, true]
+        },
+        {
+            "name": "姤",
+            "pattern": [true, false, true, true, true, false]
+        },
+        {
+            "name": "萃",
+            "pattern": [false, true, true, true, true, false]
+        },
+        {
+            "name": "升",
+            "pattern": [true, true, true, true, false, false]
+        },
+        {
+            "name": "困",
+            "pattern": [false, false, true, false, true, true]
+        },
+        {
+            "name": "井",
+            "pattern": [true, false, true, false, false, false]
+        },
+        {
+            "name": "革",
+            "pattern": [false, false, false, true, false, false]
+        },
+        {
+            "name": "鼎",
+            "pattern": [false, false, true, false, false, false]
+        },
+        {
+            "name": "震",
+            "pattern": [true, false, false, true, false, false]
+        },
+        {
+            "name": "艮",
+            "pattern": [false, false, false, false, true, false]
+        },
+        {
+            "name": "渐",
+            "pattern": [false, false, false, true, false, true]
+        },
+        {
+            "name": "归妹",
+            "pattern": [true, false, false, false, false, false]
+        },
+        {
+            "name": "丰",
+            "pattern": [false, true, false, false, false, false]
+        },
+        {
+            "name": "旅",
+            "pattern": [false, true, false, false, true, false]
+        },
+        {
+            "name": "巽",
+            "pattern": [false, true, false, true, false, false]
+        },
+        {
+            "name": "兑",
+            "pattern": [true, false, true, false, true, true]
+        },
+        {
+            "name": "涣",
+            "pattern": [true, true, false, true, false, true]
+        },
+        {
+            "name": "节",
+            "pattern": [true, false, true, true, false, false]
+        },
+        {
+            "name": "中孚",
+            "pattern": [false, true, true, false, true, true]
+        },
+        {
+            "name": "小过",
+            "pattern": [true, true, false, true, true, true]
+        },
+        {
+            "name": "既济",
+            "pattern": [true, true, true, false, true, true]
+        },
+        {
+            "name": "未济",
+            "pattern": [true, true, true, true, false, true]
+        }
+    ]
+}

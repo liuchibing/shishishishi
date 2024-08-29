@@ -23,7 +23,7 @@
 
 <div class="lg:container lg:mx-auto m-2">
 	<div class="flex">
-		<div class="min-h-32">
+		<div class="min-h-32 mr-2">
 			<div class="my-2">
 				当前步骤：第{$count爻+1}爻 - 第{$count变 + 1}变 - {$currentStep}：{hintText}
 			</div>

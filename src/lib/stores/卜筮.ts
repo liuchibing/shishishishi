@@ -1,9 +1,9 @@
 import { type SticksData } from '$lib/components/Sticks.svelte';
 import { writable } from 'svelte/store';
 
-export type 筮法 = '大衍筮法（经典）'; // to be continued
+export type 筮法 = '大衍筮法（朱熹）'; // to be continued
 
-function initSticks(method: 筮法 = '大衍筮法（经典）'): SticksData {
+function initSticks(method: 筮法 = '大衍筮法（朱熹）'): SticksData {
 	const sticks: SticksData = {
 		left: [[]],
 		right: [[]],
@@ -12,7 +12,7 @@ function initSticks(method: 筮法 = '大衍筮法（经典）'): SticksData {
 		none: [[]]
 	};
 	switch (method) {
-		case '大衍筮法（经典）':
+		case '大衍筮法（朱熹）':
 			sticks.hanging[0].push({ id: 0 });
 			for (let i = 1; i <= 49; i++) {
 				sticks.none[0].push({ id: i });
