@@ -71,8 +71,10 @@
 				in:receive={{ key: stick.id }}
 				out:send={{ key: stick.id }}
 				animate:flip={{ duration: 600 }}
-				class:mr-2={!stick.lastOfSubgroup && !stick.lastOfGroup}
-				class:mr-4={stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:mr-[0.8vw]={!stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:lg:mr-2={!stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:mr-[1.6vw]={stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:lg:mr-4={stick.lastOfSubgroup && !stick.lastOfGroup}
 			>
 				<Stick />
 			</button>
@@ -86,8 +88,10 @@
 				animate:flip={{ duration: 600 }}
 				on:click={() => dispatch('click', stick.id)}
 				class:ml-auto={stick.position !== 'left' && stick.firstOfGroup}
-				class:mr-2={!stick.lastOfSubgroup && !stick.lastOfGroup}
-				class:mr-4={stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:mr-[0.8vw]={!stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:lg:mr-2={!stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:mr-[1.6vw]={stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:lg:mr-4={stick.lastOfSubgroup && !stick.lastOfGroup}
 				class:mr-auto={stick.position !== 'right' && stick.lastOfSubgroup && stick.lastOfGroup}
 			>
 				<Stick />
@@ -100,8 +104,10 @@
 				in:receive={{ key: stick.id }}
 				out:send={{ key: stick.id }}
 				animate:flip={{ duration: 600 }}
-				class:mr-2={!stick.lastOfSubgroup && !stick.lastOfGroup}
-				class:mr-4={stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:mr-[0.8vw]={!stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:lg:mr-2={!stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:mr-[1.6vw]={stick.lastOfSubgroup && !stick.lastOfGroup}
+				class:lg:mr-4={stick.lastOfSubgroup && !stick.lastOfGroup}
 			>
 				<Stick />
 			</button>

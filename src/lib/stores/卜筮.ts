@@ -7,7 +7,7 @@ function initSticks(method: 筮法 = '大衍筮法（经典）'): SticksData {
 	const sticks: SticksData = {
 		left: [[]],
 		right: [[]],
-		hanging: [[], []],
+		hanging: [[]],
 		removed: [[]],
 		none: [[]]
 	};
@@ -70,7 +70,7 @@ export function 开始卜筮() {
 								return sticks; // should not happen
 							}
 						}
-						sticks.hanging[1].push(selectedStick);
+						sticks.hanging[1] = [selectedStick];
 						// automatically trigger next step after 1000ms
 						timeout = setTimeout(() => {
 							nextStep(-1);
@@ -116,8 +116,7 @@ export function 开始卜筮() {
 					}
 					sticks.update((sticks) => {
 						// move the last sticks from hanging to removed
-						sticks.removed[0].push(...sticks.hanging[1]);
-						sticks.hanging[1] = [];
+						sticks.removed[0].push(...sticks.hanging.pop() || []);
 						// move the last groups from left and right to removed
 						sticks.removed[0].push(...(sticks.left.pop() || []));
 						sticks.removed[0].push(...(sticks.right.pop() || []));
